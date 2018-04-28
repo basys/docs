@@ -25,7 +25,7 @@ If starter project name is not provided you will be offered to chose one interac
 1. Public GitHub repository in a form `<username>/<repo-name>`;
 2. Local directory provided by an absolute or relative path.
 
-You can also create a new project via API (see [source code](https://github.com/basys/basys/blob/master/packages/basys-cli/utils.js)
+You can also create a new project via API (see [source code](https://github.com/basys/basys/blob/master/packages/basys-cli/utils.js))
 ```javascript
 const {initProject} = require('basys-cli/utils');
 initProject(answers, install);
@@ -86,8 +86,9 @@ basys test:e2e [app-name]
 
 ```javascript
 const {e2eTest} = require('basys');
-e2eTest(projectDir, appName);
+e2eTest(projectDir, appName, options);
 ```
+`options` is an optional [configuration object](http://devexpress.github.io/testcafe/documentation/using-testcafe/programming-interface/runner.html#run) passed to the TestCafe test runner.
 
 #### lint
 
