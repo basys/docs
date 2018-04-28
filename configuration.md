@@ -23,8 +23,7 @@ Basys project consists of one or more apps, which may have shared assets or code
 | caseSensitive | `false` | Defines whether to use case sensitive route matching. |
 | favicon | `null` | Optional path to favicon file relative to the project root. |
 | browsers | `["> 0.5%", "last 2 versions", "Firefox ESR", "not dead"]` | A list of browsers that will be supported by the web app. This option is used when bundling JavaScript and CSS and replaces all unsupported features with polyfills. It uses the [browserlist format](https://github.com/ai/browserslist#queries). If you only support newer browsers this option allows to reduce the bundle size. For web apps only. |
-| cssSourceMap | `env==='test'` | Defines whether CSS source maps should be generated (only in end-to-end tests by default). |
-| jsSourceMap | `env==='test'` | Defines whether JavaScript source maps should be generated (only in end-to-end tests by default). |
+| sourceMap | `false` | Defines whether CSS and JavaScript source maps should be generated. |
 | nodeVersion | `8.9` | A minimum version of Node.js supported by the backend code. For web and desktop apps only. |
 | host | `"localhost"` | Host used for serving web app and dev server. |
 | port | `8080` | Port used for serving web app. If this port is occupied an empty port will be automatically detected and used. |
