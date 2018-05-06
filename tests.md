@@ -31,7 +31,7 @@ basys = {
 }
 ```
 
-Here is a sample test which checks that web app home page contains a `&lt;div&gt;Hello world!&lt;/div&gt;` element:
+Here is a sample test which checks that web app home page contains a `<div>Hello world</div>` element:
 ```javascript
 import {Selector} from 'testcafe';
 
