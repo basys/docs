@@ -15,7 +15,7 @@ Initializes a new Basys project from a starter template and installs npm package
 * `dest` - the directory path where project will be generated (must be empty or non-existent).
 * `vscode` - boolean indicating whether Visual Studio Code workspace settings should be generated.
 
-If some of these options are missing an interactive CLI will be launched in the terminal.
+If some of these options are missing the interactive CLI will be launched in the terminal.
 
 `install` is a boolean that indicates whether npm packages should be installed.
 

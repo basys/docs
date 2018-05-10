@@ -1,6 +1,6 @@
 # Basys documentation
 
-These Markdown files are used to generate [documentation on Basys website](http://basys.io/docs/getting-started).
+These Markdown files are used to generate [documentation on Basys website](https://basys.io/docs/getting-started).
 
 * [Getting started](getting-started.md)
 * [Configuration](configuration.md)
