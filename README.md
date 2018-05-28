@@ -4,6 +4,7 @@ These Markdown files are used to generate [documentation on Basys website](https
 
 * [Getting started](getting-started.md)
 * [Configuration](configuration.md)
+* [Linting](linting.md)
 * [Tests](tests.md)
 * [CLI](cli.md)
 * [API](api.md)
