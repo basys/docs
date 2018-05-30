@@ -4,7 +4,7 @@
 
 Under the hood Basys uses [Jest](https://facebook.github.io/jest) to run unit tests. It comes with a [default configuration](https://github.com/basys/basys/blob/master/packages/basys/lib/webpack/jest-config.js), but you can provide custom Jest configuration by creating `jest.config.js` file in the project root directory.
 
-Jest automatically finds `*.test.js` and `*.spec.js` test files inside `tests/unit/` directory. All features included in ECMAScript 2017 are supported with the help of [babel-preset-env](https://babeljs.io/docs/plugins/preset-env/).
+Jest automatically finds `*.test.js` and `*.spec.js` test files inside `tests/unit/` directory. All features included in ECMAScript 2017 are supported with the help of [babel-preset-env](https://babeljs.io/docs/plugins/preset-env).
 
 Here is a sample test to get you started:
 ```javascript
